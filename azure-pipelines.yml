@@ -13,7 +13,7 @@ steps:
   
 - task: CloudFormationCreateOrUpdateStack@1
   inputs:
-    awsCredentials: 'AWSAdminCred'
+    awsCredentials: 'aws-connection'
     regionName: 'ap-southeast-2'
     stackName: 'cft-one'
     templateSource: 'file'
