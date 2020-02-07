@@ -15,7 +15,7 @@ steps:
   inputs:
     awsCredentials: 'aws-connection'
     regionName: 'ap-southeast-2'
-    stackName: 'cft-one'
+    stackName: 'cft-two'
     templateSource: 'file'
     templateFile: 'lambda_apigateway_cft.json'
     s3BucketName: 'azure-devops-bucket'
