@@ -207,7 +207,7 @@
 						"Sid": "RestAPICaller003",
 						"Effect": "Allow",
 						"Action": "s3:GetObject",
-						"Resource":  "arn:aws:s3:::car-images-hd-madan/*"
+						"Resource":  "arn:aws:s3:::azure-devops-bucket/*"
 					}
 				]
 			},
