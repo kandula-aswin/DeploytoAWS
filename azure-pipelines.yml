@@ -18,4 +18,4 @@ steps:
     stackName: 'cft-one'
     templateSource: 'file'
     templateFile: 'lambda_apigateway_cft.json'
-    s3BucketName: 'aws-sam-cli-managed-default-samclisourcebucket-10sp2ssea4mnt'
+    s3BucketName: 'azure-devops-bucket'
