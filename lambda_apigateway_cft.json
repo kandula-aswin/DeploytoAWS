@@ -76,7 +76,7 @@
 		"FunctionName": "GetVehicle",
 		"Description": "Function to Get Vehicle Image from S3 Bucket",
 		"Code": {
-			"S3Bucket": "car-images-hd-madan",
+			"S3Bucket": "azure-devops-bucket",
 			"S3Key": "Get_Car.zip"
 		},
 		"Handler": "Get_Car.get_car",
@@ -268,7 +268,7 @@
 		"BucketPolicy": {
       "Type": "AWS::S3::BucketPolicy",
       "Properties": {
-        "Bucket": "car-images-hd-madan",
+        "Bucket": "azure-devops-bucket",
         "PolicyDocument": {
           "Version": "2012-10-17",
           "Statement": [
@@ -277,7 +277,7 @@
               "Action": [
                 "s3:GetObject"
               ],
-              "Resource": "arn:aws:s3:::car-images-hd-madan/*",
+              "Resource": "arn:aws:s3:::azure-devops-bucket/*",
               "Condition": {},
               "Principal": {
                 "AWS": [
